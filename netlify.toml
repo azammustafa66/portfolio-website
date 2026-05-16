@@ -1,7 +1,8 @@
 [build]
   command = "bun install && bun run generate"
-  publish = ".output/public"
+  publish = "dist"
 
 [build.environment]
   NODE_VERSION = "20"
   BUN_VERSION = "1"
+  NITRO_OUTPUT_DIR = "dist"
