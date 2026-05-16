@@ -50,8 +50,7 @@
         </div>
 
         <!-- Footer -->
-        <div class="mt-auto border-t border-outline-variant pt-4 flex justify-between items-center">
-          <span class="font-mono text-label-mono text-on-surface-variant text-caption">{{ project.date }}</span>
+        <div class="mt-auto border-t border-outline-variant pt-4 flex justify-end items-center">
           <a
             :href="project.repo"
             target="_blank"
@@ -74,7 +73,6 @@ const projects = [
     description: 'Production-grade automation CLI for async database backups — stream-based pipeline handles 50GB migrations under 150MB memory with 99.9% success rate.',
     stack: ['TypeScript', 'MySQL', 'Node.js', 'Bash'],
     status: 'deployed',
-    date: 'Mar 2025',
     icon: 'terminal',
     repo: 'https://github.com/azammustafa66/database-backup-cli-client',
   },
@@ -83,7 +81,6 @@ const projects = [
     description: 'Scalable REST backend with 25+ endpoints, granular RBAC, Redis caching under 120ms, and BullMQ async notification pipelines boosting throughput by 40%.',
     stack: ['Express', 'MongoDB', 'Redis', 'Docker', 'BullMQ', 'JWT'],
     status: 'deployed',
-    date: 'Jan 2025',
     icon: 'hub',
     repo: 'https://github.com/azammustafa66/basecamp-clone-backend',
   },
@@ -92,7 +89,6 @@ const projects = [
     description: 'Distributed image processing and delivery service with dynamic transformations — reduces average payload by 40% while maintaining visual quality under concurrent load.',
     stack: ['Bun', 'Node.js', 'Express', 'MongoDB', 'Sharp'],
     status: 'deployed',
-    date: 'Nov 2024',
     icon: 'image',
     repo: 'https://github.com/azammustafa66/image-processing-backend',
   },
@@ -101,7 +97,6 @@ const projects = [
     description: 'Role-gated REST API for event booking — organizers manage events, customers book tickets. Async notification side-effects via BullMQ keep HTTP responses non-blocking.',
     stack: ['Bun', 'Express', 'TypeScript', 'MongoDB', 'BullMQ', 'Redis', 'JWT'],
     status: 'deployed',
-    date: 'Feb 2025',
     icon: 'calendar_month',
     repo: 'https://github.com/azammustafa66/event-booking-app-backend',
   },
@@ -110,7 +105,6 @@ const projects = [
     description: 'CLI-driven HTTP proxy that caches GET responses to disk. Serves repeat requests from cache without hitting the origin. Returns X-Cache: HIT/MISS/BYPASS on every response.',
     stack: ['TypeScript', 'Node.js'],
     status: 'deployed',
-    date: 'Apr 2025',
     icon: 'speed',
     repo: 'https://github.com/azammustafa66/http-caching-proxy-server',
   },
