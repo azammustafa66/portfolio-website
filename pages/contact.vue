@@ -166,7 +166,7 @@ async function handleSubmit() {
 }
 
 const externalLinks = [
-  { label: 'Resume', desc: 'Download PDF', icon: 'download', href: '/Azam-SWE.pdf', download: true },
+  { label: 'Resume', desc: 'View / Download PDF', icon: 'download', href: 'https://drive.google.com/file/d/16t8KxiLQ5V7NP9CjoNOCMPwlItT2Qm8S/view?usp=share_link', download: false },
   { label: 'Email', desc: 'azammustafa66@gmail.com', icon: 'mail', href: 'mailto:azammustafa66@gmail.com', download: false },
   { label: 'GitHub', desc: 'Review code repositories', icon: 'code', href: 'https://github.com/azammustafa66', download: false },
   { label: 'LinkedIn', desc: 'Professional history', icon: 'work', href: 'https://www.linkedin.com/in/azam20/', download: false },
