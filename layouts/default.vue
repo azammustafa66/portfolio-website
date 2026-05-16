@@ -47,7 +47,7 @@
     <footer class="border-t border-outline-variant bg-background">
       <div class="flex flex-col md:flex-row justify-between items-center px-5 md:px-margin-desktop py-8 max-w-container mx-auto gap-4 md:gap-0">
         <span class="font-sans text-headline-md font-bold text-on-surface">AZAM.DEV</span>
-        <span class="text-caption text-on-surface-variant">© 2025 Azam Mustufa Didagur. Built with Nuxt 3.</span>
+        <span class="text-caption text-on-surface-variant">© {{ currentYear }} Azam Mustufa Didagur. Built with Nuxt 3.</span>
         <div class="flex gap-6">
           <a href="https://github.com/azammustafa66" target="_blank" rel="noopener" class="text-caption text-on-surface-variant hover:text-primary transition-colors">GitHub</a>
           <a href="https://www.linkedin.com/in/azam20/" target="_blank" rel="noopener" class="text-caption text-on-surface-variant hover:text-primary transition-colors">LinkedIn</a>
@@ -76,6 +76,7 @@
 import { useRoute } from 'vue-router'
 
 const route = useRoute()
+const currentYear = new Date().getFullYear()
 
 const navItems = [
   { label: 'Work', path: '/projects' },

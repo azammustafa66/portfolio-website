@@ -10,12 +10,13 @@
       </div>
 
       <h1 class="font-sans text-headline-xl-mobile md:text-headline-xl text-on-surface leading-tight">
-        Building Robust<br />Backend Systems
+        Software Engineer<br />at IBM
       </h1>
 
       <p class="font-sans text-body-lg text-on-surface-variant max-w-2xl">
-        Software Engineer at IBM specializing in distributed systems, cloud integrations, and high-concurrency API design.
-        I build scalable, fault-tolerant infrastructure — from microservices to async pipelines — that performs under real load.
+        Fresh Computer Science graduate working on SAP SuccessFactors cloud integrations at IBM.
+        I focus on quality engineering, test automation with Selenium and Playwright, and building
+        backend projects with Node.js, Express, and MongoDB in my own time.
       </p>
 
       <div class="flex flex-wrap gap-4 mt-2">
