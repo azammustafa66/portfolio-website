@@ -10,8 +10,10 @@ export default defineNuxtConfig({
       meta: [
         { name: 'description', content: 'Software Engineer at IBM working on SAP SuccessFactors cloud integrations, test automation, and backend development. Based in Bangalore, India.' },
         { property: 'og:type', content: 'website' },
+        { property: 'og:url', content: 'https://azam-sys.netlify.app' },
         { property: 'og:title', content: 'Azam Mustufa — Software Engineer' },
         { property: 'og:description', content: 'Software Engineer at IBM working on SAP SuccessFactors cloud integrations, test automation, and backend development.' },
+        { property: 'og:image', content: 'https://azam-sys.netlify.app/og.png' },
         { name: 'twitter:card', content: 'summary' },
         { name: 'twitter:title', content: 'Azam Mustufa — Software Engineer' },
         { name: 'twitter:description', content: 'Software Engineer at IBM. Working on SAP SuccessFactors cloud integrations, test automation, and backend development.' },
