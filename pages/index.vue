@@ -285,57 +285,43 @@ const stats = [
 
 const projects = [
   {
-    name: 'Database Backup CLI',
-    description: 'Production-grade automation CLI for async database backups — stream-based pipeline handles 50GB migrations under 150MB memory with 99.9% success rate.',
-    stack: ['TypeScript', 'MySQL', 'Node.js', 'Bash'],
+    name: 'Database Backup CLI Infrastructure',
+    description: 'Production-grade automation CLI for async database backups — reduces manual deployment and migration time by 80%, handles 50GB migrations under 150MB memory with 99.9% success rate.',
+    stack: ['TypeScript', 'MongoDB', 'MySQL', 'Node.js', 'Linux', 'Bash'],
     icon: 'terminal',
     repo: 'https://github.com/azammustafa66/database-backup-cli-client',
   },
   {
-    name: 'Basecamp Clone API',
-    description: 'Scalable REST backend with 25+ endpoints, granular RBAC, Redis caching under 120ms, and BullMQ async notification pipelines boosting throughput by 40%.',
+    name: 'Project Management Engine',
+    description: 'Scalable REST backend with 25+ endpoints and granular RBAC. API responses optimised to under 120ms via Redis caching. BullMQ async pipelines cut cache latency by 15ms and improve throughput by 40%.',
     stack: ['Express', 'MongoDB', 'Redis', 'Docker', 'BullMQ', 'JWT'],
     icon: 'hub',
     repo: 'https://github.com/azammustafa66/basecamp-clone-backend',
   },
   {
-    name: 'Image Processing Service',
-    description: 'Distributed image processing and delivery service with dynamic transformations — reduces average payload by 40% while maintaining visual quality under concurrent load.',
-    stack: ['Bun', 'Node.js', 'Express', 'MongoDB', 'Sharp'],
+    name: 'Distributed Image Processing Backend',
+    description: 'Scalable image processing and delivery service with dynamic transformations — reduces image payloads by 40%, improves query response times by 25% via Mongoose schemas, with streaming-based uploads under concurrent load.',
+    stack: ['Bun', 'Node.js', 'Express', 'MongoDB', 'Mongoose', 'Sharp'],
     icon: 'image',
     repo: 'https://github.com/azammustafa66/image-processing-backend',
-  },
-  {
-    name: 'Event Booking API',
-    description: 'Role-gated REST API for event booking — organizers manage events, customers book tickets. Async notification side-effects via BullMQ keep HTTP responses non-blocking.',
-    stack: ['Bun', 'Express', 'TypeScript', 'MongoDB', 'BullMQ', 'Redis', 'JWT'],
-    icon: 'calendar_month',
-    repo: 'https://github.com/azammustafa66/event-booking-app-backend',
-  },
-  {
-    name: 'HTTP Caching Proxy',
-    description: 'CLI-driven HTTP proxy that caches GET responses to disk. Serves repeat requests from cache without hitting the origin. Returns X-Cache: HIT/MISS/BYPASS on every response.',
-    stack: ['TypeScript', 'Node.js'],
-    icon: 'speed',
-    repo: 'https://github.com/azammustafa66/http-caching-proxy-server',
   },
 ]
 
 const techStack = [
   {
-    label: 'Languages & Frameworks',
+    label: 'Languages',
     icon: 'data_object',
-    items: ['Java', 'Python', 'JavaScript', 'TypeScript', 'Node.js', 'Express', 'Bun'],
+    items: ['Java', 'JavaScript', 'TypeScript', 'Python', 'C++', 'SQL'],
   },
   {
-    label: 'Databases & Messaging',
-    icon: 'database',
-    items: ['MongoDB', 'MySQL', 'Redis', 'RabbitMQ', 'BullMQ'],
+    label: 'Frameworks & Libraries',
+    icon: 'layers',
+    items: ['Spring Boot', 'Spring Security', 'Node.js', 'Express', 'Bun', 'BullMQ', 'Mongoose'],
   },
   {
-    label: 'DevOps & Testing',
+    label: 'Databases, DevOps & Testing',
     icon: 'dns',
-    items: ['Docker', 'Linux', 'CI/CD', 'Selenium', 'Playwright', 'Cypress', 'Jira'],
+    items: ['MongoDB', 'MySQL', 'Redis', 'RabbitMQ', 'Docker', 'Linux', 'CI/CD', 'Git', 'JUnit', 'Mockito', 'Selenium', 'Playwright', 'Cypress'],
   },
 ]
 
@@ -345,11 +331,11 @@ const experience = [
     company: 'IBM · Bangalore, India',
     period: 'Dec 2025 — Present',
     points: [
-      'Executed functional testing for SAP SuccessFactors cloud integrations, identifying and resolving 30+ critical defects that prevented production rollbacks and improved release stability by 15%.',
-      'Improved defect lifecycle management by introducing standardized Jira workflows and facilitating daily cross-team syncs, reducing average bug resolution time by 20% across 4 deployment cycles.',
-      'Authored 45+ Java Selenium automated test scripts, reducing regression testing time by 30% and manual effort; additionally contributed test cases and best practices to Playwright and Cypress automation projects.',
+      'Building backend services for SAP SuccessFactors cloud integrations using Java and Spring Boot, with Spring Data JPA, Hibernate, and Spring Security + JWT for stateless authentication and bcrypt-based password handling.',
+      'Integrated asynchronous processing via @Async and @RabbitListener for background tasks, applied @Transactional for data consistency, and wrote unit and integration tests using JUnit and Mockito.',
+      'Identified and resolved 30+ critical defects during functional testing of cloud integrations, preventing production rollbacks and improving release stability by 15%.',
     ],
-    metric: '// IBM · SAP SuccessFactors integrations<br/>defects_resolved:    30+<br/>release_stability:   +15%<br/>bug_resolution_time: -20%<br/>test_scripts:        45+<br/>regression_time:     -30%',
+    metric: '// IBM · SAP SuccessFactors integrations<br/>defects_resolved:  30+<br/>release_stability: +15%',
   },
   {
     title: 'B.E. Computer Science & Engineering',
