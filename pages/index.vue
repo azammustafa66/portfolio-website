@@ -13,9 +13,9 @@
       </h1>
 
       <p class="font-sans text-body-lg text-on-surface-variant max-w-2xl mb-8">
-        Fresh CS graduate working on SAP SuccessFactors cloud integrations at IBM.
-        I focus on quality engineering and test automation at work, and build backend
-        systems with Node.js, Express, and MongoDB in my own time.
+        Software Engineer at IBM working on SAP SuccessFactors cloud integrations.
+        I build backend systems with Java, Spring Boot, and Node.js, and focus on
+        quality engineering, test automation, and distributed systems.
       </p>
 
       <div class="flex flex-wrap gap-6 mb-12">
