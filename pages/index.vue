@@ -305,6 +305,13 @@ const projects = [
     icon: 'image',
     repo: 'https://github.com/azammustafa66/image-processing-backend',
   },
+  {
+    name: 'UPI Offline Mesh',
+    description: 'Spring Boot backend simulating UPI payments routed peer-to-peer through a Bluetooth mesh with no internet. Hybrid RSA-OAEP + AES-GCM encryption protects payloads across untrusted devices. Atomic idempotency (ConcurrentHashMap as Redis SETNX) ensures exactly-once settlement even when multiple bridge nodes deliver the same packet concurrently.',
+    stack: ['Java', 'Spring Boot', 'RSA/AES-GCM', 'H2', 'JUnit'],
+    icon: 'wifi_off',
+    repo: 'https://github.com/azammustafa66/UPI_Without_Internet',
+  },
 ]
 
 const techStack = [
