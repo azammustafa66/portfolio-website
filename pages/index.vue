@@ -306,6 +306,13 @@ const projects = [
     repo: 'https://github.com/azammustafa66/image-processing-backend',
   },
   {
+    name: 'HTTP Caching Proxy',
+    description: 'CLI-driven HTTP proxy that caches GET responses to disk. Repeat requests are served from cache without hitting the origin. Non-GET requests are forwarded transparently. Every response includes an X-Cache: HIT / MISS / BYPASS header.',
+    stack: ['TypeScript', 'Node.js', 'Express'],
+    icon: 'speed',
+    repo: 'https://github.com/azammustafa66/http-caching-proxy-server',
+  },
+  {
     name: 'UPI Offline Mesh',
     description: 'Spring Boot backend simulating UPI payments routed peer-to-peer through a Bluetooth mesh with no internet. Hybrid RSA-OAEP + AES-GCM encryption protects payloads across untrusted devices. Atomic idempotency (ConcurrentHashMap as Redis SETNX) ensures exactly-once settlement even when multiple bridge nodes deliver the same packet concurrently.',
     stack: ['Java', 'Spring Boot', 'RSA/AES-GCM', 'H2', 'JUnit'],
