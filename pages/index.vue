@@ -306,6 +306,13 @@ const projects = [
     repo: 'https://github.com/azammustafa66/image-processing-backend',
   },
   {
+    name: 'Home Energy Tracker',
+    description: 'Microservices system for monitoring household electricity usage — 6 Spring Boot services behind an API Gateway with circuit breaking (Resilience4j), JWT auth (Keycloak), and Kafka event streaming. Energy readings flow from ingestion → usage-service → InfluxDB time-series store, with threshold-based alerts and full Prometheus + Grafana observability.',
+    stack: ['Java 21', 'Spring Boot', 'Spring Cloud', 'Kafka', 'InfluxDB', 'MySQL', 'Docker'],
+    icon: 'electric_bolt',
+    repo: 'https://github.com/azammustafa66',
+  },
+  {
     name: 'HTTP Caching Proxy',
     description: 'CLI-driven HTTP proxy that caches GET responses to disk. Repeat requests are served from cache without hitting the origin. Non-GET requests are forwarded transparently. Every response includes an X-Cache: HIT / MISS / BYPASS header.',
     stack: ['TypeScript', 'Node.js', 'Express'],
