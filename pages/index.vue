@@ -310,7 +310,7 @@ const projects = [
     description: 'Microservices system for monitoring household electricity usage — 6 Spring Boot services behind an API Gateway with circuit breaking (Resilience4j), JWT auth (Keycloak), and Kafka event streaming. Energy readings flow from ingestion → usage-service → InfluxDB time-series store, with threshold-based alerts and full Prometheus + Grafana observability.',
     stack: ['Java 21', 'Spring Boot', 'Spring Cloud', 'Kafka', 'InfluxDB', 'MySQL', 'Docker'],
     icon: 'electric_bolt',
-    repo: 'https://github.com/azammustafa66',
+    repo: 'https://github.com/azammustafa66/home-energy-tracker',
   },
   {
     name: 'HTTP Caching Proxy',
